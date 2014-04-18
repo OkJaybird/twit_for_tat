@@ -68,9 +68,7 @@ public class TwitterInteraction {
 	public static void notifyNewFollower(String username) {
 		Twitter twitter = buildUserSpecificConnection();
 		try {
-			DateFormat dateFormat = new SimpleDateFormat("MM/dd HH:mm:ss");
-			Date date = new Date();
-			twitter.updateStatus(IOUtil.getUsername()+"'s TwitForTat bot is now following @"+username+" at "+dateFormat.format(date));
+			twitter.updateStatus("I am now following @"+username+" #cse516twitfortat");
 		} catch (TwitterException e) {
 			System.out.println("Unable to tweet update at "+username);
 		}
