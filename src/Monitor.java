@@ -50,7 +50,7 @@ public class Monitor {
 			}
 
 			IOUtil.printAPICallLimit();
-			try {Thread.sleep(30000);} catch (InterruptedException e) {}
+			try {Thread.sleep(31000);} catch (InterruptedException e) {}
 		}
 	}
 
