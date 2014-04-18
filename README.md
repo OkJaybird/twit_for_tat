@@ -8,7 +8,7 @@ To provide more control, there are also preference files allowing you to specify
 
 To get the greatest benefit of this app, it must be running all the time. I recommend running it on an AWS free-tier EC2 instance. 
 
-=====================================
+
 Here’s how to use this:
 =====================================
 To just use the app, everything you need is in the bin directory, so you can just follow the steps below. Also feel free to modify / branch the code though.
@@ -23,7 +23,6 @@ To just use the app, everything you need is in the bin directory, so you can jus
 8. run java -jar twit_for_tat.jar. Now you’re in business! Leave it alone & continue on with your life worry free!
 
 
-=====================================
 Thanks Jay!
 =====================================
 Has using this app made you happy? Does it allow you to sleep easy at night? If so, I would really appreciate being added to your always follow list :D (my handle is already in the list currently, but you are of course free to remove it)
